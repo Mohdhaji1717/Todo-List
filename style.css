@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+  }
+  .container ,h1{
+    margin: 20px 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #addButton{
+    margin-left: 20px;
+    padding: 3px 8px;
+  }
+  #nameInput{
+    height: 25px;
+    padding-left: 6px;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+  }
+
+  .name-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .name-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
+  }
+  .name-item , li {
+    font-size: 1.5rem;
+  }
+  .error-msg{
+    color: red;
+    margin-right: 75px;
+  }
+  .delete-button {
+    margin-left: 100px;
+    padding: 5px 10px;
+    background-color: #f05050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
